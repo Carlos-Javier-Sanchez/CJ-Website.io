@@ -14,7 +14,7 @@
     width: 100%;
     flex-wrap:  wrap;
     justify-content: right;
-    background-image: url("images/VG27 3.jpg");
+    background-image: url("VG27 3.jpg");
     background-size: cover;
     width: 100vw;
     height: 50vw;
@@ -72,7 +72,7 @@
 }
 
 .stats2 {
-    background-image: url("images/VG27 2.jpg");
+    background-image: url("VG27 2.jpg");
     background-size: cover;
 }
 
