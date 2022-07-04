@@ -15,7 +15,7 @@
     width: 100%;
     flex-wrap:  wrap;
     justify-content: right;
-    background-image: url("images/JuanSoto4.jpg");
+    background-image: url("JuanSoto4.jpg");
     background-size: cover;
     width: 100vw;
     height: 50vw;
@@ -73,7 +73,7 @@
 }
 
 .stats1 {
-    background-image: url("images/JS3.jpg");
+    background-image: url("JS3.jpg");
     background-size: cover;
 }
 #home {
