@@ -1,0 +1,91 @@
+
+.body {
+    text-align: right;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    position: fixed; top: 0; left: 0;
+    padding-top: 100 px;
+    padding-bottom: 100 px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    flex-wrap:  wrap;
+    justify-content: right;
+    background-image: url("images/VG27 3.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 50vw;
+    background: #536878
+    z-index: 1;
+    position: fixed;
+    text-align: center;
+    font-family: playfair display;
+    font-size: 20px;
+    margin-right:10;
+}
+
+.card {
+    background: #1d65a5;
+    width: 250px;
+    height: 420px;
+    margin: 15px;
+    border-radius: 5px:
+    text-align: center;
+    z-index: 1;
+    border: 1px solid #ccc;
+    margin-right:160px;
+    box-shadow: 1px 2px 3px 4px rgba(12,12,12,0.3), 2px 3px 4px 4px rgba(14,14,14,0.2) ;
+}
+.card p {
+    padding= 10px;
+
+}
+
+.card a {
+    background: black;
+    color: white;
+    display: block;
+    padding: 15px 20px;
+    margin: 15px 20px;
+    tex-align: 20px 50px;
+    justify-content: center;
+}
+
+.card:hover{
+    background: #0d101f;
+    color: white;
+    cursor: pointer;
+    transform:scale(1.03);
+    transition: all 1s ease;
+    text-decoration: none;
+}
+
+.card-image {
+    height: 100px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    justify-content: center;
+}
+
+.stats2 {
+    background-image: url("images/VG27 2.jpg");
+    background-size: cover;
+}
+
+#home {
+    background-color: #1a1d3c;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    border: 2px solid #5b81a3;
+    margin: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+#home:hover {
+    background-color: #346da0;
+    cursor: pointer;
