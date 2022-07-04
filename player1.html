@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Player Stats</title>
+    <link rel='stylesheet' href="{{url_for('static', filename='/player1.css')}}">
+
+</head>
+    <body>
+        <section class="container">
+            <div class="card">
+                <div class="card-image stats1"></div>
+                <h3>Juan Soto</h3>
+                <p>Promedio Bateo: {{bavg1}}</p>
+                <p>Home Runs:{{hr1}}</p>
+                <p>Hits: {{hit1}}</p>
+                <p>OBP: {{obp1}}</p>
+                <p>Slugging: {{slg1}}</p>
+                <form method="GET" action="/">
+                <input type="submit" value="HOME" id="home">
+                </form>
+            </div>
+        </section>
+    </body>
+</html>
